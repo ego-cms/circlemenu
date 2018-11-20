@@ -1,0 +1,35 @@
+PODS:
+  - EGOCircleMenu (0.1.0):
+    - lottie-ios
+    - PromiseKit (~> 6.0)
+  - lottie-ios (2.5.2)
+  - PromiseKit (6.5.3):
+    - PromiseKit/CorePromise (= 6.5.3)
+    - PromiseKit/Foundation (= 6.5.3)
+    - PromiseKit/UIKit (= 6.5.3)
+  - PromiseKit/CorePromise (6.5.3)
+  - PromiseKit/Foundation (6.5.3):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.5.3):
+    - PromiseKit/CorePromise
+
+DEPENDENCIES:
+  - EGOCircleMenu (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - lottie-ios
+    - PromiseKit
+
+EXTERNAL SOURCES:
+  EGOCircleMenu:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EGOCircleMenu: ee63227ff0d8b25aab5b9ad3e4019f9de381f829
+  lottie-ios: 3fef45d3fabe63e3c7c2eb603dd64ddfffc73062
+  PromiseKit: c609029bdd801f792551a504c695c7d3098b42cd
+
+PODFILE CHECKSUM: 3a9f37aa2d60e2fca527ccf36d3239a4c6309f4d
+
+COCOAPODS: 1.5.3

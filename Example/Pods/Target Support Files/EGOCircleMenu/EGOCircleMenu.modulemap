@@ -1,0 +1,6 @@
+framework module EGOCircleMenu {
+  umbrella header "EGOCircleMenu-umbrella.h"
+
+  export *
+  module * { export * }
+}

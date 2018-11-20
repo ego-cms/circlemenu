@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'EGOCircleMenu_Example' do
+  pod 'EGOCircleMenu', :path => '../'
+
+  target 'EGOCircleMenu_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
